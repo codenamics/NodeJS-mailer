@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', 'sans-serif';
+    background-color: #222222;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    position: absolute;
+    min-height: 550px;
+    width: 400px;
+    background: #1D1D1D;
+    top: 150px;
+    -webkit-box-shadow: 2px 4px 21px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 21px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 21px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+}
+
+.card-body h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 0 5px 0;
+    color: #ACACAC;
+    letter-spacing: 4px;
+}
+
+.card-body p {
+    text-align: center;
+    color: firebrick;
+    letter-spacing: 4px;
+}
+
+.card-photo {
+    position: absolute;
+    left: 50%;
+    top: -70px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 3px solid firebrick;
+}
+
+.wrapper .card-body .about {
+    margin: 85px 0 0 0;
+}
+
+.mail-msg {
+    text-align: center;
+    color: green;
+    margin: 10px 0 0 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 300px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px #424141 solid;
+    margin-bottom: 20px;
+    color: #FAFAFA;
+}
+
+.input-field {
+    min-height: 80px;
+}
+
+button {
+    min-width: 300px;
+    border: 2px firebrick solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: transparent;
+    border-radius: 25px;
+    color: #FAFAFA;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 25px 0 0 0;
+}
